@@ -1,0 +1,18 @@
+<html>
+<head>
+<style>
+ table {border-collapse: collapse;}
+  table, th, td {  border: 1px solid black; }
+</style>
+</head>
+<body>
+<table>
+<tr> <th> Name </th> <th> Email </th> <th> Student ID </th> </tr>
+<tr> <td> Abdel  </td> <td>  abdel@gmail.com  </td> <td>  1238203  </td>
+<tr> <td> Lili   </td> <td>  lili@yahoo.com  </td> <td>  123888  </td>
+<tr> <td> George </td> <td>  xi@yorku.ca  </td> <td>  304304  </td>
+<tr> <td> Xiong  </td> <td>  batman@136.com  </td> <td>  111000  </td>
+</table>
+
+</body>
+</html>

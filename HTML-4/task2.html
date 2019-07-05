@@ -1,0 +1,129 @@
+<!-- PHP Forms Examples -->
+
+<!-- (CC) Michael S. Brown -->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <script src="task2.js" type="text/javascript"></script>
+
+<style>
+
+  body { font-family: sans-serif;}
+
+  .entry {
+
+    background-color: silver;
+
+    overflow: hidden;
+
+    padding: 10px;
+
+    border: 2px black solid;
+
+    margin-top: 10px;
+
+  }
+
+  .entry img {
+
+    float:right;
+
+    height: 200px;
+
+    margin:10px;
+
+    border: solid 1px black;
+
+  }
+
+  #container {
+
+    width: 80%;
+
+    padding: 10px;
+
+    background-color: LightSkyBlue;
+
+    margins: auto;
+
+    border: solid 5px black;
+
+    font-size: 1.25em;
+
+  }
+
+  input[type="submit"] {
+
+    font-size: 1.5em;
+
+  }
+
+  h1 { text-align: center;}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<h2> Order Information </h2>
+
+<div class="entry">
+
+  Select color:
+
+  <select name="color">
+
+    <option selected="selected">White</option>
+
+    <option>Black</option>
+
+    <option>Red</option>
+
+    <option>Green</option>
+
+    <option>Blue</option>
+
+  </select> <br><br>
+
+  Select shirt size:
+
+  <select name="sizeandprice">
+
+    <option>Small - $9.99</option>
+
+    <option>Medium - $10.99</option>
+
+    <option selected="selected">Large - $11.99</option>
+
+    <option>X-Large - $13.99</option>
+
+  </select><br><br>
+
+
+
+  Is this a gift? <input type="checkbox" name="gift" id="box" onclick="textarea()" > <br><br>
+
+  Write your gift message here: <br>
+
+  <textarea rows="5" cols="50" name="message" id="text" disabled >Type your message here.
+
+  </textarea>
+
+
+
+</div>
+
+</div>
+
+
+
+</body>
+
+</html>

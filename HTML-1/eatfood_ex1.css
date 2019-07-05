@@ -1,0 +1,30 @@
+body{
+  border: 5px solid #008000;
+}
+#main{
+    border: 5px solid #FF0000;
+}
+.header h2 {
+    border:  5px solid #FFA500;
+}
+#dosa{
+  border: 5px solid #0000FF;
+}
+#pide{
+  border: 5px solid #0000FF;
+}
+#falafel{
+  border: 5px solid #0000FF;
+}
+#spicypot{
+  border: 5px solid #0000FF;
+}
+#footer{
+  border: 5px solid	#FFA500;
+}
+.date{
+  border: 2px solid #800080;
+}
+.p1{
+    border: 2px solid #000000;
+}

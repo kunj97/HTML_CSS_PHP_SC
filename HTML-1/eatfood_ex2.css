@@ -1,0 +1,42 @@
+body{
+    background-image: url("background.gif");
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#main{
+    border: 5px solid #FF0000;
+}
+#mainpage{
+  background-color: white;
+    border: 5px solid #008000;
+}
+.header h2 {
+    border:  5px solid #FFA500;
+}
+.dosa{
+  border: 5px solid #0000FF;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(196, 226, 255);
+}
+.pide{
+  border: 5px solid #0000FF;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(196, 226, 255);
+}
+.falafel{
+  border: 5px solid #0000FF;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(196, 226, 255);
+}
+.spicypot{
+  border: 5px solid #0000FF;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(196, 226, 255);
+}
+.date{
+  border: 2px solid #800080;
+}
